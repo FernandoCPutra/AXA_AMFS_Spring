@@ -1,0 +1,23 @@
+Enkapsulasi (Encapsulation):
+Enkapsulasi adalah prinsip kunci dalam OOP yang melibatkan pengemasan atau pembungkusan suatu entitas,
+dimana prinsip ini membantu melindungi informasi dalam kelas dengan menyembunyikan cara kerjanya.
+Ex : private, protected, default, public
+
+Abstraksi:
+Abstract Class adalah kelas dalam OOP yang tidak dapat diinstansiasi dan berfungsi sebagai dasar bagi class turunannya.
+Abstract class minimal memiliki satu atau lebih abstract method,
+yang nantinya akan diimplementasikan ulang dalam class turunannya. Sebagai contoh,
+abstract class bisa digunakan untuk menangkap ciri-ciri umum yang dapat diakses oleh class turunan melalui abstract method.
+
+Pewarisan (Inheritance):
+Pewarisan adalah konsep di OOP di mana sebuah class (parent class)
+dapat mewarisi karakteristik dan metode kepada class lain (child class).
+Konsep ini membantu menghindari pengulangan kode ketika ada karakteristik yang sama di beberapa class.
+Ex : Human can walk, eat, drink
+    -Employee can work (also can walk, eat, drink)
+
+Polimorfisme:
+Polimorfisme adalah konsep di OOP di mana objek dapat diperlakukan seolah-olah dari kelas yang sama dengan kelas induknya.
+Hal ini memungkinkan perlakuan seragam terhadap kelas karena objek turunan memiliki sifat yang sama dengan kelas induknya.
+Sebagai contoh, kelas "Hewan" memiliki metode "makeNoise" yang dapat dioverride oleh subclass seperti "Kucing"
+dan "Anjing" untuk menghasilkan suara yang sesuai dengan jenisnya.
